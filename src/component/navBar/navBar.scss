@@ -1,0 +1,64 @@
+@import '../../scssFoundation/color';
+@import '../../scssFoundation/typography';
+
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo {
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+.name {
+    a{
+      font-family: $body-font-family;
+    font-size: $h-1-font-size;
+    font-weight: $h-4-font-weight;
+    }
+}
+
+.collapse {
+    ul{
+        
+        gap: 10px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        transition: all 1s ease;
+        li{
+            font-family: $body-font-family;
+            font-size: $h-5-font-size;
+            font-weight: $h-5-font-weight;
+            border-radius: 5px;
+            padding:0px 10px;
+            background-color: $btn-primary-bg-color;
+           
+            a {
+             color: $body-text-color;
+            text-decoration: none;
+           }
+            
+            cursor: pointer;
+            &:hover {
+                  animation: nav-animation 1s ease;
+                 background-color: $btn-primary-bg-hover;
+            }
+            }
+           
+    }
+    
+}
+@keyframes nav-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
