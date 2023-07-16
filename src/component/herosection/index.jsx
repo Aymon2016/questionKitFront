@@ -1,25 +1,22 @@
 import './index.scss'
+import kid2 from '../../../assets/kid2.png'
 
 const HeroSection = () => {
     return (
-        <header style={{ paddingLeft: 0 }}>
-            <div
-                className='p-5 text-center bg-image'
-                style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", height: 400 }}
-            >
-                <div id='content'>
-                    <div className='d-flex justify-content-center align-items-center h-500'>
-                        <div className='text-white'>
-                            <h2 className='mb-3'>Question Generaor</h2>
-                            <h5 className='mb-3'>Smart School Management System</h5>
-                            <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
-                                Call to Contact
-                            </a>
-                        </div>
-                    </div>
+        <div className="herosection">
+            <div className="row">
+                <div className="col-md-6 left">
+                    <h3>Smart School Management System</h3>
+                    <button>
+                        <p>Create Question</p>
+                    </button>
+                </div>
+                <div className="col-md-6 right">
+                    <img src={kid2} />
                 </div>
             </div>
-        </header>
+
+        </div>
     );
 }
 

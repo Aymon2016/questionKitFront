@@ -1,22 +1,62 @@
 
 .featurecontainer{
-  margin-top: 50px;
-  padding: 5px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-
+  gap: 5px;
   .heading{
     h1{
+      font-family: 'Century Gothic';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 66px;
       text-align: center;
+
+      color: #2B2B2B;
     }
   }
   .featurebody{
-    display: flex;
-    flex-direction: row;
-      gap: 10px;
-      flex-wrap: wrap;
-      justify-content:space-around;
+    .row{
+      margin-bottom: 40px;
+    }
+    .left{
+      width: 50%;
+      padding: 10px;
+      img{
+        width: 400px;
+        height: 200px;
+      }
+    }
+    .right{
+    
+      padding: 10px;
+      width: 50%;
+      h4{
+        text-align: start;
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+
+        color: #2B2B2B;
+
+
+      }
+      p{
+       
+      font-family: 'Century Gothic';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+
+      color: #2B2B2B;
+
+
+      }
+    }
   }
 }
 

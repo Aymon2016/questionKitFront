@@ -1,13 +1,21 @@
 
 .featurecontainer{
-  margin-top: 50px;
   margin-bottom: 20px;
   padding: 5px;
   display: flex;
   flex-direction: column;
   .heading{
-    h1{
+    h4{
+      font-family: 'Century Gothic';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
       text-align: center;
+
+      color: #2B2B2B;
+
+
     }
   }
   .featurebody{
@@ -16,6 +24,43 @@
       gap: 10px;
       flex-wrap: wrap;
       justify-content: space-between;
+
+    .row{
+      .cards{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h4{
+          font-family: 'Century Gothic';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 184.61%;
+          /* or 52px */
+          text-align: center;
+
+          color: #2B2B2B;
+        }
+        p{
+          font-family: 'Century Gothic';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 23px;
+          line-height: 184.61%;
+          /* or 42px */
+          text-align: center;
+
+          color: #2B2B2B;
+        }
+        img{
+          width: 300px;
+          height: 300px;
+        }
+      }
+    }
   }
 }
 

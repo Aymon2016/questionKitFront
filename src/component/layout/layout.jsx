@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../navBar/navBar'
 import Footer from '../footer/footer'
 
 const Loyout = ({ children }) => {
@@ -9,7 +8,6 @@ const Loyout = ({ children }) => {
             flexDirection: "column",
             backgroundColor: "#FDFDFD"
         }}>
-            <NavBar />
             {children}
             <Footer />
         </div>
