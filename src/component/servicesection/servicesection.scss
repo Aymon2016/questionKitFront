@@ -32,3 +32,45 @@
    }
 
 }
+
+@media screen and (max-width: 700px) {
+
+     .banner{
+       
+        .serviceSection{
+            .content{
+                h4{
+                    font-weight: 500;
+                    font-size: 34px; 
+                }
+            }
+            .imge{
+                img{
+                    width: 400px;
+                    height: 300px;
+                }
+            }
+        }
+     }
+  }
+
+  @media screen and (max-width: 450px) {
+
+     .banner{
+          height: 300px;
+        .serviceSection{
+            .content{
+                h4{
+                    font-weight: 500;
+                    font-size: 24px; 
+                }
+            }
+            .imge{
+                img{
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+     }
+  }

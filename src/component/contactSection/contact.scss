@@ -1,4 +1,5 @@
 .contactSection{
+    padding-top: 10px;
     width: 100%;
     height: 350px;
     background-color: #369FE4;
@@ -23,9 +24,30 @@
              font-weight: 500;
         }
         img{
-            width: 300px;
-            height: 300px;
+            width: 280px;
+            height: 280px;
         }
        }
     }
+}
+
+@media screen and (max-width: 575px) {
+    
+   .contactSection{
+     .container{
+       .row{
+         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .col-sm-6{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+       
+       }
+    }
+   }
 }

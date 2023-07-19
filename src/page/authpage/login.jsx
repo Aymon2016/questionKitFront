@@ -114,7 +114,7 @@ const Login = () => {
             <NavBar color='#369FE4' />
             <div className="loginbaner">
                 <h4>About <span className='question'>Question</span> <span className='kit'>Kit</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Please give your email & password for login.</p>
                 <button>More know</button>
                 <img src={loginbanner} alt='contactbannerImage' />
             </div>

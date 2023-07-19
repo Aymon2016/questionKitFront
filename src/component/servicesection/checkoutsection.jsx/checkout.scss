@@ -55,3 +55,104 @@
         }
     }
 }
+
+  @media screen and (max-width: 991px) {
+
+        .checkout{
+            .container{
+                h4{
+                
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 59px;
+                
+                }
+                 .services{
+                 .card{
+                    width: 300px;
+                    img{
+                    width: 250px;
+                    height: 250px;
+                    }
+        
+                }
+            }
+            }
+        }
+  }
+    @media screen and (max-width: 767px) {
+
+        .checkout{
+            .container{
+              
+                 .services{
+                 .card{
+                    width: 250px;
+                    img{
+                    width: 230px;
+                    height: 230px;
+                    }
+        
+                }
+            }
+            }
+        }
+  }
+     @media screen and (max-width: 767px) {
+        .checkout{
+            .container{
+                 .services{
+                 .card{
+                    width: 250px;
+                    img{
+                    width: 230px;
+                    height: 230px;
+                    }
+        
+                }
+            }
+            }
+        }
+  }
+       @media screen and (max-width: 575px) {
+        .checkout{
+            .container{
+                 .services{
+                .row{
+                    margin: 0px;
+                    .col-sm-6{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .card{
+                    width: 350px;
+                    margin-bottom: 10px;
+                    img{
+                    width: 300px;
+                    height: 230px;
+                    }
+        
+                }
+            }
+            }
+        }
+    }
+
+        @media screen and (max-width: 400px) {
+        .checkout{
+            .container{
+                 .services{
+                 .card{
+                    width: 250px;
+                    img{
+                    width: 230px;
+                    height: 230px;
+                    }
+        
+                }
+            }
+            }
+        }
+  }

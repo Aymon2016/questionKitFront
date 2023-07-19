@@ -5,9 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: calc( 100vh - 200px);
+  width: 100%;
   background-color: #FCBA4D;
+  padding: 20px;
 }
 
 .Auth-form {
@@ -112,5 +112,79 @@ label {
   img{  
       width: 500px;
       height: 200.62px;
+  }
+}
+
+@media(max-width:700px){
+  .loginsection{
+    .loginbaner{
+      h4{
+         font-weight: 500;
+          font-size: 34px;
+          line-height: 40px;
+      }
+       P{
+      
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150.61%;
+  
+      }
+      button{
+         font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+@media(max-width:550px){
+  .loginsection{
+    .loginbaner{
+      img{
+         width: 320px;
+         height: 200.62px;
+      }
+    }
+  }
+}
+
+@media(min-width:850px){
+  .loginsection{
+    .loginbaner{
+      img{
+         width: 800px;
+         height: 400.62px;
+      }
+      h4{
+         font-weight: 700;
+          font-size: 64px;
+          line-height: 50px;
+      }
+       P{
+      
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 150.61%;
+  
+      }
+      button{
+         font-weight: 500;
+         padding: 5px 15px;
+        font-size: 40px;
+        line-height: 36px;
+      }
+    }
+  }
+  .usersContainer{
+    .Auth-form{
+      width: 800px;
+      height: 420px;
+    }
+    .Auth-form-content{
+      button{
+        margin-top: 20px;
+      }
+    }
   }
 }

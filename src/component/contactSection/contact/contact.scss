@@ -232,3 +232,21 @@
     padding: 0;
   }
 }
+
+@media (max-width: 575px) {
+ 
+  .container {
+         
+        h4{
+           
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 30px;
+           
+        }
+      .screen{
+
+      }
+  }   
+
+}
