@@ -1,9 +1,12 @@
 
 .featurecontainer{
-  margin-bottom: 20px;
+  width: 100%;
   padding: 5px;
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  border-radius: 73px 73px 0px 0px;
+
   .heading{
     h4{
       font-family: 'Century Gothic';
@@ -28,6 +31,7 @@
     .row{
       .cards{
         padding: 10px;
+        margin: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -63,17 +67,66 @@
     }
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 989px) {
   .featurecontainer {
     .featurebody {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-
-      .card {
-        flex-basis: 100%;
+     .row{
+      .card{
+         h4{
+         
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 150.61%;
+         
+        }
+        p{
+        
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 150.61%;
+       
+        }
+      img{
+          width: 250px;
+        height: 250px;
       }
+      }
+     }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .featurecontainer {
+    .featurebody {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .row{
+       .cards{
+         h4{
+         
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 150.61%;
+         
+        }
+        p{
+        
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 150.61%;
+       
+        }
+      img{
+          width: 200px;
+          height: 200px;
+      }
+    }
+    }
     }
   }
 }

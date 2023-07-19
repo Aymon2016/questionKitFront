@@ -1,14 +1,13 @@
-import React from 'react'
-import FeatureSection from '../../component/featuresection/featuresection'
+
+import NavBar from '../../component/navBar/navBar'
+import Servicesection from '../../component/servicesection/servicessection'
 
 const Featurepage = () => {
     return (
-        <div>
-            <div className="heading">
-                <h1 style={{ textAlign: 'center', marginTop: "20px" }}>We Provide</h1>
-            </div>
-            <FeatureSection />
-        </div>
+        <>
+            <NavBar color='#369FE4' />
+            <Servicesection />
+        </>
     )
 }
 

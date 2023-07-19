@@ -1,0 +1,34 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    background-color: #369FE4;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   .serviceSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .content{
+        h4{
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 78px;
+            color:#2C2C2C;
+            .service{
+                color: #FF0B80;
+            }
+        }
+    }
+    .imge{
+     img{
+        width: 600px;
+        height: 300px;
+     }
+    }
+   }
+
+}

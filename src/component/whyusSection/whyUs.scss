@@ -8,35 +8,46 @@
     h1{
       font-family: 'Century Gothic';
       font-style: normal;
-      font-weight: 500;
-      font-size: 40px;
+      font-weight: 700;
+      font-size: 54px;
       line-height: 66px;
       text-align: center;
 
       color: #2B2B2B;
+
+
     }
   }
   .featurebody{
-    .row{
-      margin-bottom: 40px;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
     .left{
-      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 10px;
+      gap: 5px;
       img{
         width: 400px;
-        height: 200px;
+        height: 300px;
       }
     }
     .right{
-    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 10px;
-      width: 50%;
+      gap: 5px;
       h4{
         text-align: start;
         font-family: 'Century Gothic';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 36px;
         line-height: 44px;
 
@@ -45,31 +56,103 @@
 
       }
       p{
-       
-      font-family: 'Century Gothic';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 20px;
+      
+  word-spacing: auto;
+  letter-spacing: normal;
+        display: inline-block;
+        text-align: justify;
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 184.61%;
+        text-align: center;
 
-      color: #2B2B2B;
+        color: #2B2B2B;
 
 
       }
     }
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+  .featurebody{
+    .row{
+      .left{
+        img{
+          width: 300px;
+          height: 200px;
+        }
+      }
+      .right{
+        h4{
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 30px;
+        }
+        p{
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 150.61%;
+         
+         
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
   .featurecontainer {
+  .heading{
+      h1{
+       font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+    }
+  }
     .featurebody {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-
-      .card {
-        flex-basis: 100%;
+     .row{
+      .left{
+        img{
+          width: 200px;
+          height: 150px;
+        }
       }
+      .right{
+        h4{
+          font-weight: 300;
+          font-size: 22px;
+          line-height: 30px;
+        }
+        p{
+          font-weight: 200;
+          font-size: 15px;
+          line-height: 150.61%;
+         
+         
+        }
+      }
+    }
     }
   }
 }
+
+
+
+@media screen and (max-width: 575px) {
+  .under {
+    order: 1; 
+    flex-basis: 100%; 
+  }
+
+  .upper {
+    order: 2; 
+    flex-basis: 100%; 
+  }
+}
+
+
+

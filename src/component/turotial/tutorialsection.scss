@@ -1,0 +1,114 @@
+.tutorialsection{
+        background: #00A17F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 150px;
+        .content{
+            width: 50%;
+            top: 20px;
+            position: absolute;
+            padding-bottom: 30px;
+            h4{
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #FFFFFF;
+            .comming{
+                 font-family: 'Century Gothic';
+                font-style: normal;
+                font-weight: 100;
+                font-size: 15px;
+                color:red;
+            }
+            }
+            p{
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 184.61%;
+            text-align: center;
+            color: #FFFFFF;
+            }
+        }
+        .imge{
+            display: flex;
+            justify-content: center;
+            top:150px;
+            width: 60%;
+            height: 80%;
+            background: #FFFFFF;
+            border-radius: 44px;
+            position: absolute;
+            img{
+            position: absolute;
+            top: 50px;
+            width: 100%;
+            height: 100%;
+
+            }
+
+        }
+
+}
+@media screen and (max-width: 568px) {
+    
+    .tutorialsection{
+        
+        .content{
+           
+            h4{
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+            .comming{
+                 font-family: 'Century Gothic';
+                font-style: normal;
+                font-weight: 100;
+                font-size: 10px;
+                color:red;
+            }
+            }
+            p{
+            font-family: 'Century Gothic';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150.61%;
+            text-align: center;
+            color: #FFFFFF;
+            }
+        }
+        .imge{
+            display: flex;
+            justify-content: center;
+            top:150px;
+            width: 60%;
+            height: 60%;
+            background: #FFFFFF;
+            border-radius: 44px;
+            position: absolute;
+            img{
+            position: absolute;
+            top: 50px;
+            width: 100%;
+            height: 100%;
+
+            }
+
+        }
+    }
+}
+

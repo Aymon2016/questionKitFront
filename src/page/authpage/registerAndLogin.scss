@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: calc( 100vh - 100px);
+  height: calc( 100vh - 200px);
+  background-color: #FCBA4D;
 }
 
 .Auth-form {
@@ -35,6 +36,11 @@
   color: rgb(34, 34, 34);
   font-weight: 800;
 }
+.Auth-form-content{
+  input{
+       background-color: #e1eaf0;
+  }
+}
 
 label {
   font-size: 14px;
@@ -45,5 +51,66 @@ label {
 @media(min-width:530px){
   .Auth-form {
     width: 420px;
+  }
+}
+
+//login banner 
+
+.loginsection{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginbaner{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #369FE4;
+  width: 100%;
+  h4{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #2C2C2C;
+    .question{
+      color: #FF0B80;
+    }
+    .kit{
+      color: #0b334e;
+    }
+  }
+  P{
+    width: 60%;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150.61%;
+    /* or 55px */
+    text-align: center;
+    color: #2B2B2B;
+  }
+  button{
+      background: #FF0B80;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      font-family: 'Century Gothic';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 29px;
+      line-height: 36px;
+      color: #FFFFFF;
+      padding: 0px 20px;
+      border-radius: 20px;
+  }
+  img{  
+      width: 500px;
+      height: 200.62px;
   }
 }

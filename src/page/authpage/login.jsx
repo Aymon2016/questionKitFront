@@ -1,4 +1,4 @@
-
+import loginbanner from '../../../assets/login.png'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
@@ -6,6 +6,7 @@ import React, { useState } from "react"
 import axios from 'axios'
 import './registerAndLogin.scss'
 import { Link } from "react-router-dom"
+import NavBar from '../../component/navBar/navBar';
 
 const Login = () => {
 
@@ -109,48 +110,57 @@ const Login = () => {
 
 
     return (
-        <div className="usersContainer">
-            <form method='post' className="Auth-form">
-                <div className="Auth-form-content">
-                    <h3 className="Auth-form-title">Sign In</h3>
+        <div className='loginsection'>
+            <NavBar color='#369FE4' />
+            <div className="loginbaner">
+                <h4>About <span className='question'>Question</span> <span className='kit'>Kit</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>More know</button>
+                <img src={loginbanner} alt='contactbannerImage' />
+            </div>
+            <div className="usersContainer">
+                <form method='post' className="Auth-form">
+                    <div className="Auth-form-content">
+                        <h3 className="Auth-form-title">Sign In</h3>
 
-                    <div className="form-group mt-3">
-                        <label>Email</label>
-                        <input
-                            type="email"
-                            className="form-control mt-1"
-                            placeholder="john@gmail.com"
-                            name='email'
-                            value={users.email}
-                            onChange={addData}
-                        />
-                        {errors.email && <p>{errors.email}</p>}
-                    </div>
+                        <div className="form-group mt-3">
+                            <label>Email</label>
+                            <input
+                                type="email"
+                                className="form-control mt-1"
+                                placeholder="john@gmail.com"
+                                name='email'
+                                value={users.email}
+                                onChange={addData}
+                            />
+                            {errors.email && <p>{errors.email}</p>}
+                        </div>
 
-                    <div className="form-group mt-3">
-                        <label>Password</label>
-                        <input
-                            type="password"
-                            className="form-control mt-1"
-                            placeholder="password"
-                            name='password'
-                            value={users.password}
-                            onChange={addData}
-                        />
-                        {errors.password && <p>{errors.password}</p>}
-                    </div>
+                        <div className="form-group mt-3">
+                            <label>Password</label>
+                            <input
+                                type="password"
+                                className="form-control mt-1"
+                                placeholder="password"
+                                name='password'
+                                value={users.password}
+                                onChange={addData}
+                            />
+                            {errors.password && <p>{errors.password}</p>}
+                        </div>
 
-                    <div className="d-grid gap-2 mt-3">
-                        <button type="submit"
-                            className="btn btn-primary"
-                            onClick={sendData}
-                        >
-                            Submit
-                        </button>
+                        <div className="d-grid gap-2 mt-3">
+                            <button type="submit"
+                                className="btn btn-primary"
+                                onClick={sendData}
+                            >
+                                Submit
+                            </button>
+                        </div>
                     </div>
-                </div>
-            </form>
-            <ToastContainer />
+                </form>
+                <ToastContainer />
+            </div>
         </div>
     )
 }

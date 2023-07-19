@@ -1,12 +1,13 @@
-import React from 'react'
-import Contact from '../../component/contactSection/contactSection'
+
+import Contact from '../../component/contactSection/contact/contact'
+import ContactBanner from '../../component/contactSection/contactSection'
+import NavBar from '../../component/navBar/navBar'
 
 const Contactpage = () => {
     return (
         <div>
-            <div className="heading">
-                <h1 style={{ textAlign: 'center', marginTop: "20px" }}>We can contact</h1>
-            </div>
+            <NavBar color='#369FE4' />
+            <ContactBanner />
             <Contact />
         </div>
     )

@@ -11,20 +11,21 @@ const WhyUs = () => {
                 </div>
                 <div className="featurebody">
                     <div className="row">
-                        <div className="col-md-6 left">
+                        <div className="col-sm-6 left">
                             <img src={vector1} alt="vector img" />
                         </div>
-                        <div className="col-md-6 right">
+                        <div className="col-sm-6 right">
                             <h4>Create custom question</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minima necessitatibus veritatis nisi dignissimos, perspiciatis explicabo consectetur beatae libero vero aspernatur tempora consequuntur maxime quia debitis soluta sed excepturi vel?</p>
+                            <p>Our web app's custom question feature enables users to create personalized queries,    tailoring their information retrieval to specific criteria and parameters.
+                                With the ability to create custom questions, users can obtain precise and relevant results, empowering them to extract valuable insights and make informed decisions</p>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-md-6 right">
+                    <div className="row underRow">
+                        <div className="col-sm-6 right upper">
                             <h4>24 hours Services</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique minima necessitatibus veritatis nisi dignissimos, perspiciatis explicabo consectetur beatae libero vero aspernatur tempora consequuntur maxime quia debitis soluta sed excepturi vel?</p>
+                            <p>Experience round-the-clock service with our web app. Whether it's day or night, our platform is available to assist you at any hour. Unlock the convenience of accessing personalized queries and valuable insights whenever you need them, ensuring uninterrupted productivity and support</p>
                         </div>
-                        <div className="col-md-6 left">
+                        <div className="col-sm-6 left under">
                             <img src={vector2} alt="vector img" />
                         </div>
                     </div>
