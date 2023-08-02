@@ -1,7 +1,10 @@
 import './checkout.scss'
 import service1 from '../../../../assets/service1.png'
+import { Link } from 'react-router-dom'
 
 const Checkout = () => {
+
+
     return (
         <div className="checkout">
             <div className="container">
@@ -12,7 +15,7 @@ const Checkout = () => {
                             <div className="card">
                                 <img src={service1} alt='imge' />
                                 <div className='cardfooter'>
-                                    <p>Create question</p>
+                                    <Link to='/create_question'><p>Create question</p></Link>
                                 </div>
                             </div>
                         </div>
